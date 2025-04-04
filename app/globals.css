@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+*{
+  font-family: oswald;
+}
+
+:root {
+  --font-oswald: 'Oswald', sans-serif;
+  --font-fira-sans: 'Fira Sans', sans-serif;
+  --font-mulish: 'Mulish', sans-serif;
+  --font-fira-sans-condensed: 'Fira Sans Condensed', sans-serif;
+  --color-primary: #0C03B9; /* Custom Blue */
+  --color-secondary: #003366; /* Custom Purple */
+  --color-greys: #E7E7E7; /* Custom Red */
+  --color-blue2: #07008C; /* Light Gray */
+  --color-text: #1F2937; /* Dark Gray */
+}
+
+/* Use Tailwind classes to apply fonts */
+.font-oswald {
+  font-family: var(--font-oswald);
+}
+
+.font-fira-sans {
+  font-family: var(--font-fira-sans);
+}
+
+.font-mulish {
+  font-family: var(--font-mulish);
+}
+
+.font-fira-sans-condensed {
+  font-family: var(--font-fira-sans-condensed);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.text-primary {
+  color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+
