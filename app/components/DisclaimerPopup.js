@@ -23,10 +23,10 @@ export default function DisclaimerPopup() {
   if (!showPopup) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-white/80 px-4 sm:px-6 font-mulish">
-      <div className="bg-white p-6 sm:p-10 rounded-lg sm:rounded-xl shadow-2xl w-full max-w-lg sm:max-w-3xl text-center border border-gray-300 overflow-y-auto max-h-[90vh]">
-        <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6">DISCLAIMER</h2>
-        <div className="text-gray-700 text-sm sm:text-base space-y-3 sm:space-y-4 text-left">
+    <div className="fixed inset-0 z-50 flex items-start justify-center bg-black/30 px-4 font-mulish overflow-y-auto pt-24 pb-10">
+      <div className="bg-white p-5 sm:p-8 rounded-lg shadow-2xl w-full max-w-md sm:max-w-xl border border-gray-300">
+        <h2 className="text-lg sm:text-2xl font-semibold mb-4 text-center">DISCLAIMER</h2>
+        <div className="text-gray-700 text-sm sm:text-base space-y-3 text-left max-h-[60vh] overflow-y-auto pr-2">
           <p>
             The Bar Council of India does not permit advertisement or solicitation by advocates in any form or manner.
           </p>
@@ -43,12 +43,14 @@ export default function DisclaimerPopup() {
             The contents of this website are the intellectual property of Wadhwa & Wadhwa.
           </p>
         </div>
-        <button
-          onClick={handleAgree}
-          className="mt-5 sm:mt-6 bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition text-sm sm:text-base"
-        >
-          I AGREE
-        </button>
+        <div className="flex justify-center mt-5">
+          <button
+            onClick={handleAgree}
+            className="bg-blue-600 text-white px-5 py-2 rounded-md hover:bg-blue-700 transition text-sm sm:text-base"
+          >
+            I AGREE
+          </button>
+        </div>
       </div>
     </div>
   );
