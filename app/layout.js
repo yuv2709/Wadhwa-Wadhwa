@@ -1,7 +1,7 @@
 import { Oswald, Fira_Sans, Mulish, Fira_Sans_Condensed } from "next/font/google";
 import "./globals.css";
+import DisclaimerPopup from "./components/DisclaimerPopup"; // Import disclaimer component
 
-// Assign fonts with valid weights
 const oswald = Oswald({ subsets: ["latin"], weight: "400" });
 const firaSans = Fira_Sans({ subsets: ["latin"], weight: "400" });
 const mulish = Mulish({ subsets: ["latin"], weight: "400" });
@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${oswald.className} ${firaSans.className} ${mulish.className} ${firaSansCondensed.className} antialiased leading-8 overflow-x-hidden`}
       >
+        <DisclaimerPopup /> {/* Popup now works correctly */}
         {children}
       </body>
     </html>

@@ -61,14 +61,15 @@ export default function AboutPage() {
         <div className="max-w-4xl">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Mr. Sachin Wadhwa</h2>
           <p className="text-black font-mulish text-lg leading-loose">
-Mr. Sachin Wadhwa, carrying forward the esteemed legacy of this law firm, has played a pivotal role in elevating its stature to new heights. A distinguished legal professional, he earned his Bachelor of Law degree from Delhi University, a foundation that enabled him to master the intricacies of the legal domain.  
+  Mr. Sachin Wadhwa, carrying forward the esteemed legacy of this law firm, has played a pivotal role in elevating its stature to new heights. A distinguished legal professional, he earned his Bachelor of Law degree from Delhi University, a foundation that enabled him to master the intricacies of the legal domain.  
 
-With a keen analytical mind and an unwavering commitment to justice, Mr. Wadhwa has expanded the firm’s expertise into multiple legal fields. His proficiency spans corporate law, taxation, litigation, and regulatory compliance, making him a trusted advisor to individuals and businesses alike.  
+  With a keen analytical mind and an unwavering commitment to justice, Mr. Wadhwa has expanded the firm&apos;s expertise into multiple legal fields. His proficiency spans corporate law, taxation, litigation, and regulatory compliance, making him a trusted advisor to individuals and businesses alike.  
 
-Known for his sharp legal acumen and strategic approach, Mr. Wadhwa has successfully navigated complex cases, ensuring favorable outcomes for his clients. His deep understanding of both direct and indirect taxation, including GST regulations, has positioned him as a go-to expert for businesses seeking legal clarity in financial matters.  
+  Known for his sharp legal acumen and strategic approach, Mr. Wadhwa has successfully navigated complex cases, ensuring favorable outcomes for his clients. His deep understanding of both direct and indirect taxation, including GST regulations, has positioned him as a go-to expert for businesses seeking legal clarity in financial matters.  
 
-Under his leadership, the firm has not only upheld its reputation for integrity and excellence but has also embraced modern legal practices to adapt to the ever-evolving landscape. With a vision for the future and a deep respect for the firm's heritage, Mr. Sachin Wadhwa continues to drive its success, ensuring that it remains a beacon of trust, expertise, and legal excellence.  
-          </p>
+  Under his leadership, the firm has not only upheld its reputation for integrity and excellence but has also embraced modern legal practices to adapt to the ever-evolving landscape. With a vision for the future and a deep respect for the firm&apos;s heritage, Mr. Sachin Wadhwa continues to drive its success, ensuring that it remains a beacon of trust, expertise, and legal excellence.  
+</p>
+
         </div>
       </div>
     </div>
