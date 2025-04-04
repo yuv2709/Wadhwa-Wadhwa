@@ -131,6 +131,17 @@ const practiceAreas = [
   
   Our goal is to empower businesses with legally secure and growth-friendly solutions that minimize risk and enhance profitability.`
     },
+    {
+      id: 'criminal-matters',
+      title: 'Criminal Matters',
+      content: `Criminal law is a cornerstone of individual rights and justice. At Wadhwa & Wadhwa, we provide strong, strategic legal representation to individuals and entities facing criminal allegations, ensuring due process and a fair trial.
+
+We assist clients across all stages of criminal proceedings—beginning with pre-FIR advisory, bail applications (anticipatory and regular), and continuing through investigation, trial, and appeals. Our firm handles a broad range of offenses including white-collar crimes, economic offenses, cybercrime, and cases under the NDPS Act.
+
+We also support clients in filing and defending complaints related to domestic violence, dowry harassment, sexual offenses, and criminal defamation. Our team regularly appears before trial courts, High Courts, and the Supreme Court, offering skilled representation in quashing petitions, revisions, and appeals.
+
+Whether it’s a sensitive personal matter or a high-stakes commercial criminal case, we focus on protecting our clients’ rights and reputations with discretion, diligence, and professionalism.`
+    }
   ];
   
 

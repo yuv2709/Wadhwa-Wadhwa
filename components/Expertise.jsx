@@ -13,7 +13,7 @@ const Expertise = () => {
     { title: "Direct Tax", id: "direct-tax" },
     { title: "Indirect Tax & GST", id: "indirect-tax" },
     { title: "Consumer Law", id: "consumer-law" },
-    { title: "Criminal Matters", id: "criminal" },
+    { title: "Criminal Matters", id: "criminal-matters" },
     { title: "Dispute Resolution", id: "dispute-resolution" },
     { title: "Arbitration", id: "arbitration" },
     { title: "Commercial Law", id: "commercial-law" },
